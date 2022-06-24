@@ -1,1 +1,3 @@
-export type TSpreadChainMoveOn<TGen> = (allProps:TGen[][])=>{[key:string]:any}
+export type TSpreadChainMoveOn<TGen> = (
+  allProps: TGen[][]
+) => { [key: string]: any };
